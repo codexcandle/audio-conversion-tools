@@ -8,7 +8,11 @@ A small collection of Bash scripts for audio file conversion using FFmpeg.
 2.  Install your favorite Bash terminal:
     ( e.g.: https://gitforwindows.org/ )
     
-### use
-1.  Drop ".command" file into a folder of .wav files.
+### example use
+1.  Drop "wav2mp3.command" file into a folder of .wav files.
 
-2.  Drag ".command" file onto your terminal window from above, and hit ENTER.
+2.  Open a terminal window.
+
+3.  Drag same ".command" file onto your terminal window, and hit ENTER to execute.
+
+### enjoy!
