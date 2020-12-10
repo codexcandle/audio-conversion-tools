@@ -1,5 +1,5 @@
 #!/bin/bash
-# PURPOSE:  FFMPEG Audio Conversion Script (wav -> flac)
+# PURPOSE:  FFMPEG Audio Conversion Script (aiff -> flac)
 
 echo "-------------------------|" $TITLE "|"
 
