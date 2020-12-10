@@ -11,7 +11,8 @@ cd "$(dirname "$BASH_SOURCE")" ||
 
 # VARS ###########################################################
 TITLE='FFMPEG Audio Conversion Script'
+COMPRESSION_LEVEL=12		# 0-12, default = 5
 
 for f in *.wav; do 
-	ffmpeg -i "$f" -c:a flac "${f%.wav}.flac"; 
+	ffmpeg -i "$f" -c:a -compression_level $OMPRESSION_LEVEL flac "${f%.wav}.flac"; 
 done
